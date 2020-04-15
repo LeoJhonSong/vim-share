@@ -350,9 +350,14 @@ neovim促进vim发展
 这里有一份关于创建自己的颜色主题的幻灯片[Creating Your Lovely Color Scheme](https://speakerdeck.com/cocopon/creating-your-lovely-color-scheme)可供参考
 
 获取/设计颜色主题:
+[Vivify](http://bytefluent.com/vivify/)
+[vimcolors](https://vimcolors.com/)
 
-- [Vivify](http://bytefluent.com/vivify/)
-- [vimcolors](https://vimcolors.com/)
+- 值得一提的是, 如果你的终端的文字的背景颜色是有透明度的, 那么你的vim背景颜色也会是带透明度的. 这有优点也有缺点. 一方面就像下面这个是我在macOS的**terminal.app**里的vim, 会很好看, 但另一方面因为文字前景颜色, 也就是文字颜色加了透明度会变得难以看清, 但不加透明度的话, 如果你使用powerline样式的终端提示符, 会明显看出有破绽.
+
+  💡 你可以输入`echo -e "\e[1;33;41m 我怎么变色了 \e[0m"`看输出文字的背景颜色是否有透明度来得知你的终端是哪种情况
+
+<img src="vim/transparent.jpg" style="width: auto; height: 680px;" ></img>
 
 <!-- slide data-notes="设计一套自己喜欢的键映射逻辑" -->
 
@@ -440,6 +445,12 @@ neovim促进vim发展
 
 <!-- slide -->
 
+### 我使用vim至今一年多点, 因为编程水平有限所以暂时没有更加深入的需求, 而因为使用时间还不够长因此也没有了解更多可能很便捷的功能. 很明显我的分享出于一个不上不下的水平, 仅希望这能帮到想了解vim的人以及vim初入门者. 我会慢慢继续探索的! 希望我以后能有机会做更进一步的分享, 也祝愿大家vim用得越来越丝滑.
+
+### 诸君共勉 💪
+
+<!-- slide -->
+
 ## 为了感谢你看到最后这里有两个彩蛋! 🎊
 
 <!-- slide -->
@@ -448,5 +459,12 @@ neovim促进vim发展
 
 <!-- slide -->
 
-## 为了炫耀vim8.2的新特性vim开发组做了个沙雕游戏 👀
+## 点击观看视频 👀
 
+[![](vim/bilibili.png)](https://www.bilibili.com/video/BV1LQ4y1T7Zb)
+
+<!-- slide -->
+
+# 完
+
+## 感谢您的观看 🤗
